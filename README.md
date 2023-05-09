@@ -165,7 +165,7 @@ Here are some tips when using Trezor Suite to help you preserve your privacy:
 
   - Conceal your IP address using a trusted VPN or Tor as described in the above section
 
-  - Use your own node or a node you trust if possible, e.g., when transacting with Bitcoin to prevent leaking your xpub and other PII to Trezor's nodes which may or may be shared with Wasabi Wallet who in turn may or may not share this information with blockchain analysis companies as described above
+  - Use your own node or a node you trust if possible, e.g., when transacting with Bitcoin to prevent leaking your xpub and other PII to Trezor's nodes which may or may not be shared with Wasabi Wallet who in turn may or may not share this information with blockchain analysis companies as described above
 
   - Set any privacy settings within the application, e.g., enabling Tor to conceal your IP address
 
