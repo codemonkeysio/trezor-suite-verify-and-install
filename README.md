@@ -60,7 +60,7 @@ You should see the following if the verification was successful:
 
 ```sh
 gpg: assuming signed data in 'trezor-suite-verify-and-install-manifest.sha512sum'
-gpg: Signature made Tue 09 May 2023 06:40:16 PM EDT
+gpg: Signature made Wed 10 May 2023 11:40:35 AM EDT
 gpg:                using RSA key FCFFD7771CCA9DC3A75EB51AD70C28777CBE04A5
 gpg: Good signature from "Jay the Code Monkey <jaythecodemonkey.7vk7i@slmail.me>" [ultimate]
 gpg:                 aka "Jay the Code Monkey <c0dem0nkeys@pm.me>" [ultimate]

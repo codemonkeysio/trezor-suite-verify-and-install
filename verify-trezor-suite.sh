@@ -58,12 +58,10 @@ initial_instructions() {
   printf "https://trezor.io/trezor-suite\n\n"
   printf "If you want to download an older release, then take a look at the releases page on GitHub:\n"
   printf "https://github.com/trezor/trezor-suite/releases\n\n"
-  signing_key_notification
   printf "The *'s in the file names above will be replaced by whatever version of Trezor Suite you're verifying.\n"
-  printf "Note if Trezor updates their signing key again, then the newer signing key will have to be used instead of the older one during verification.\n"
-  printf "Currently the script only supports checking for the 2020 and 2021 signing keys, so the script will have to be updated to handle any new key or to handle any arbitrary signing key.\n"
-  printf "Be sure to double check the link is bringing you to Trezor's official website!\n"
+  printf "Be sure to double check the links are bringing you to Trezor's official website!\n"
   printf "Also make sure you download the files to the same directory as the verification script.\n\n"
+  signing_key_notification
 }
 
 trezor_suite_app_image=
@@ -90,7 +88,7 @@ check_for_file() {
 }
 
 import_signing_key() {
-  printf "To verify the authenticity of the Trezor suite binary installation file we need to import the signing key used with the release.\n\n"
+  printf "To verify the authenticity of the Trezor Suite binary installation file we need to import the signing key used with the release.\n\n"
 
   gpg --import $satoshilabs_signing_key
   printf "\nIf you want to be certain you're inputting the correct signing key, then check the code and/or run the commands manually.\n"
